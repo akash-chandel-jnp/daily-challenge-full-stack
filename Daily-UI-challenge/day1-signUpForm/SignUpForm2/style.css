@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;;
+    background-color:rgb(207, 222, 234);
+    font-family: sans-serif;
+    background-image: url('./images/background.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.signupForm{
+    background-color:white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-sizing: border-box;
+
+    justify-content: center;
+    text-align: center;
+}
+.signupForm h1 {
+    color: rgb(48, 173, 215);
+}
+.input-box{
+    margin: .5rem 0;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    width: 100%;
+    padding: .5rem;
+    
+}
+button{
+    background-color:rgb(48, 173, 215);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    
+}
+
+input:hover{
+    border-color: rgb(160, 26, 160);
+    border: 2px solid;
+}
+button:hover{
+    background-color:rgb(30, 118, 147);
+    padding: .3rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+}
+a:hover{
+    background-color:yellowgreen
+}
+
+p::selection{
+    color: orange;
+    font-size: 50px;
+}
+input[attribute ="type"]{
+    background-color: green;
+}
+[type="checkbox"]{
+    border: 5px solid red;
+}
+
+a{
+    text-decoration: none;
+}
+hr{
+ margin-top: 20px;   
+ width: 80%;
+}
